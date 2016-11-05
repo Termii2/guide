@@ -1,4 +1,4 @@
-```js
+```
 var attack_mode=true
 
 setInterval(function(){
