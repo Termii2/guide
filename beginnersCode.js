@@ -1,4 +1,3 @@
-```
 var attack_mode=true
 
 setInterval(function(){
@@ -35,4 +34,3 @@ setInterval(function(){
     }
 
 },1000/4); // Loops every 1/4 seconds.
-```
