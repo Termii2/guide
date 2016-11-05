@@ -33,14 +33,14 @@ setInterval(function(){
 },1000/4); // Loops every 1/4 seconds.
 
 function handle_potions(percent_hp, percent_mp){
-   if(new Date()<parent.next_potion){
+   if(new Date() < parent.next_potion){
       return;
    }
-   if(character.hp/character.max_hp<percent_hp){
+   if(character.hp / character.max_hp < percent_hp){
       buy('hpot0', 1);
       parent.use('hp');
    }
-   else if(character.mp/character.max_mp<percent_mp){
+   else if(character.mp / character.max_mp < percent_mp){
       buy('mpot0', 1); 
       parent.use('mp');
    } 
